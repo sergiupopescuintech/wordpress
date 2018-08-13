@@ -22,18 +22,24 @@
   </div>
 </div>
 <?php $bimg= wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
+
 <div class=".container3" style="background: url('<?php echo $bimg[0] ?>') no-repeat; background-size: 100% 100%;">
+<div class="daneloo">
   <div class="container4">
       <div class="row">
-          <div class="col-sm-12 col-md-8 col-lg-6 col-xl-6">
+          <div class="col-12">
             <p class="titlupagina"><?php echo get_post_meta($post->ID, 'TitluPagina', true); ?></p>
           </div>
       </div>
       <div class="row">
-          <div class="col-sm-12 col-md-8 col-lg-5 col-xl-5">
+          <div class="col-12">
             <p class="citatpagina"><?php echo get_post_meta($post->ID, 'Citat', true); ?></p>
           </div>
       </div>
   </div>
 </div>
+
+
+</div>
+
 <div class="containertext">

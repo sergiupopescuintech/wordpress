@@ -104,18 +104,39 @@ ul ul ul li:hover {
   background-color:#dfdfdf;
 }
 
+
+
 .container3{
   /*width:1900px;
   margin-left: auto;
   margin-right: auto;*/
   width:100%;
 }
-.container4{
-  max-width:1130px;
+.daneloo{
+  padding-top:5rem;
+  padding-bottom:5rem;
+  max-width:1322px;
   margin-left: auto;
   margin-right: auto;
-  padding-top:12.7rem;
+}
+.container4{
+
+  padding-left:10rem;
+  padding-top:7rem;
+  padding-right:17rem;
+  width: 720px;
+  height:310px;
+
   color:white;
+  background-color:#8d2c8a;
+  background-repeat:no-repeat;
+
+  border-top-left-radius:45%;
+  border-bottom-left-radius:350px;
+  border-top-right-radius:100%;
+  border-bottom-right-radius:300px;
+
+
 }
 
 .titlupagina{
@@ -230,9 +251,16 @@ ul ul ul li:hover {
   .container2{
         max-width:900px;
   }
+  .daneloo{
+
+    max-width: 880px;
+    padding:0;
+
+  }
   .container4{
         max-width:880px;
-        padding-top:10.7rem;
+        padding:10.7rem 0 0 0;
+        background:none;
   }
   .containertext{
     max-width:880px;
@@ -294,9 +322,17 @@ ul ul ul li:hover {
   .container2{
         width:580px;
   }
+  .daneloo{
+
+    max-width: 560px;
+    padding:0;
+
+  }
   .container4{
         max-width:560px;
-        padding-top:5rem;
+
+        padding:4rem 0 0 0;
+        background:none;
   }
 
 
@@ -372,10 +408,18 @@ ul ul ul li:hover {
   .container2{
         width:430px;
   }
+  .daneloo{
+
+    max-width: 420px;
+    padding:0;
+
+  }
   .container4{
         text-align: center;
         max-width:420px;
-        padding-top:3rem;
+        padding:3rem 0 0 0;
+        background:none;
+        height: 17rem;
   }
 
   ul li{
@@ -455,10 +499,18 @@ ul ul ul li:hover {
   .container2{
         width:310px;
   }
+  .daneloo{
+
+    max-width: 310px;
+    padding:0;
+
+  }
   .container4{
         text-align: center;
         max-width:310px;
-        padding-top:2.5rem;
+        padding:2.5rem 0 0 0;
+        background:none;
+        height:10rem;
   }
 
   ul li{
