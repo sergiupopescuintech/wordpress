@@ -13,6 +13,22 @@ register_nav_menus(array(
           'secondary' => __('Secondary Menu'),
 ));
 
+//Add the widget location
+
+function footerwidget(){
+
+  register_sidebar(  array(
+    'name' => 'Footer Image 1',
+    'id' => 'imagefooter1'
+  ));
+  register_sidebar(  array(
+    'name' => 'Footer Image 2',
+    'id' => 'imagefooter2'
+  ));
+}
+
+add_action('widgets_init', 'footerwidget');
+
 
 
 

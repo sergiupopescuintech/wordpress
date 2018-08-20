@@ -8,11 +8,17 @@
 
 <div class="copyright">
   <p class="copyrighttext"> © 2018 The Carroll Center for the Blind  |  Privacy Policy  |  Website by </p>
-  <img class="insegment" src="http://localhost/test2/wp-content/uploads/2018/08/logo_inSegment.png">
+  <img class="insegment" src="/test2/wp-content/uploads/2018/08/logo_inSegment.png">
 </div>
-<div class="logourifinal">
-  <img  class="logofinal1" src="http://localhost/test2/wp-content/uploads/2018/08/Logo_1.png">
-  <img class="logofinal2"src="http://localhost/test2/wp-content/uploads/2018/08/Logo_2.png">
+<div class="logourifinal clearfix">
+  <!--<img  class="logofinal1" src="http://localhost/test2/wp-content/uploads/2018/08/Logo_1.png">
+  <img class="logofinal2"src="http://localhost/test2/wp-content/uploads/2018/08/Logo_2.png">-->
+  <div class="widget_area">
+    <?php dynamic_sidebar('imagefooter1'); ?>
+  </div>
+  <div class="widget_area">
+    <?php dynamic_sidebar('imagefooter2'); ?>
+  </div>
 </div>
 <?php wp_footer(); ?>
 </body>

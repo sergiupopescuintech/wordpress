@@ -234,17 +234,24 @@ ul ul ul li:hover {
   position:top;
 }
 .logourifinal{
-  max-width:430px;
+  max-width:460px;
+  list-style-type: none;
   margin-left: auto;
   margin-right: auto;
   margin-top:40px;
 }
-.logofinal1{
+.widget_area{
+  display:inline-block;
+  margin-right:35px;
+
+
+}
+/*.logofinal1{
   margin-right:40px;
 }
 .logofinal2{
 
-}
+}*/
 
 @media only screen and  (max-width:1400px) and (min-width:1000px)
 {
@@ -313,9 +320,7 @@ ul ul ul li:hover {
   .copyright{
     max-width:690px;
   }
-  .logourifinal{
-    max-width:430px;
-  }
+
 }
 @media only screen and  (max-width:1000px) and (min-width:600px)
 {
