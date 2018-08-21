@@ -30,7 +30,19 @@ html{
 
 .menu-item-has-children:after {
   content:'\f0d7';
+  font-family:'Font Awesome\ 5 Free';
+  font-weight: 900;
+  color:white;
+  vertical-align: super;
 
+
+}
+.menu-item-has-children .menu-item-has-children:after {
+  content:'\f0da';
+  font-family:'Font Awesome\ 5 Free';
+  font-weight: 900;
+  color:#8d2c8a;
+  transform:rotate(180deg);
 }
 
 ul{
