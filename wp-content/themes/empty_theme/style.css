@@ -28,6 +28,11 @@ html{
   display:none;
 }
 
+.menu-item-has-children:after {
+  content:'\f0d7';
+
+}
+
 ul{
   list-style-type: none;
   margin:0;

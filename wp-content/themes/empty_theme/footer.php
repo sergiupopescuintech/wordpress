@@ -11,8 +11,6 @@
   <img class="insegment" src="/test2/wp-content/uploads/2018/08/logo_inSegment.png">
 </div>
 <div class="logourifinal clearfix">
-  <!--<img  class="logofinal1" src="http://localhost/test2/wp-content/uploads/2018/08/Logo_1.png">
-  <img class="logofinal2"src="http://localhost/test2/wp-content/uploads/2018/08/Logo_2.png">-->
   <div class="widget_area1">
     <?php dynamic_sidebar('imagefooter1'); ?>
   </div>
