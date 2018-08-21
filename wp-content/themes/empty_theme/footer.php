@@ -7,16 +7,16 @@
 </div>
 
 <div class="copyright">
-  <p class="copyrighttext"> © 2018 The Carroll Center for the Blind  |  Privacy Policy  |  Website by </p>
+  <p class="copyrighttext"> © 2018 The Carroll Center for the Blind  |  <a href="#" style="text-decoration:none; color:black;">Privacy Policy</a>  |  Website by </p>
   <img class="insegment" src="/test2/wp-content/uploads/2018/08/logo_inSegment.png">
 </div>
 <div class="logourifinal clearfix">
   <!--<img  class="logofinal1" src="http://localhost/test2/wp-content/uploads/2018/08/Logo_1.png">
   <img class="logofinal2"src="http://localhost/test2/wp-content/uploads/2018/08/Logo_2.png">-->
-  <div class="widget_area">
+  <div class="widget_area1">
     <?php dynamic_sidebar('imagefooter1'); ?>
   </div>
-  <div class="widget_area">
+  <div class="widget_area2">
     <?php dynamic_sidebar('imagefooter2'); ?>
   </div>
 </div>
